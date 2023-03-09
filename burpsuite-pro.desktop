@@ -1,0 +1,13 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=BurpSuite Professional
+Encoding=UTF-8
+#Exec=bash -c "java -noverify -javaagent:/home/avik/bb-tools/Burp.Suite.Pro.2021/burploader.jar -jar /home/avik/bb-tools/Burp.Suite.Pro.2021/burpsuite_pro_v2021.8.4.jar"
+Exec=bash -c "java -noverify -javaagent:/home/avik/bb-tools/BurpSuitePro2022/burploader.jar -jar /home/avik/bb-tools/BurpSuitePro2022/burpsuite_pro_v2022.8.2.jar"
+#Exec=/root/burp/burp.sh
+Icon=burpsuite.png
+StartupNotify=false
+Terminal=false
+Type=Application
+Categories=03-webapp-analysis;03-06-web-application-proxies;
+X-Kali-Package=burpsuite

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Alacritty
+Comment=A cross-platform, GPU-accelerated terminal emulator
+Exec=/home/avik/.cargo/bin/alacritty
+Terminal=false
+Type=Application
+Icon=alacritty
+Categories=System;TerminalEmulator;
+Keywords=terminal;emulator;shell;
